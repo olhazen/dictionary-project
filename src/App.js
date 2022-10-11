@@ -14,7 +14,15 @@ export default function App() {
         <Dictionary defaultKeyword="sunset" />
       </main>
       <footer className="App-footer">
-        <small> Coded by Olha Zen</small>
+      This project was coded by{" "}
+      <a href="https://olhasi.wixsite.com/my-site" 
+      target="_blank" rel="noopener noreferrer">
+       Olha Zen  
+       </a> {" "} 
+       and is{" "}
+  <a href="https://github.com/olhazen/dictionary-project" target="_blank" rel="noopener noreferrer">open-sourced on GitHub </a> and is{" "}
+  <a href="https://glistening-baklava-396b03.netlify.app/" target="_blank" rel="noopener noreferrer">hosted on Netlify 
+  </a>
         </footer>
     </div>
     </div>
