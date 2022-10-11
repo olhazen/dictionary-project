@@ -1,8 +1,8 @@
-import logo from './logo.png';
-import './App.css';
+import logo from "./logo.png";
+import "./App.css";
 import Dictionary from "./Dictionary";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
       <div className="container">
@@ -11,14 +11,12 @@ function App() {
        img-fluid" alt="logo" /> 
       </header>
       <main>
-        <Dictionary />
+        <Dictionary defaultKeyword="sunset" />
       </main>
-      <footer className="text-center">
+      <footer className="App-footer">
         <small> Coded by Olha Zen</small>
         </footer>
     </div>
     </div>
   );
 }
-
-export default App;
