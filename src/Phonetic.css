@@ -3,19 +3,19 @@
   }
   
   .Phonetic a {
-    border: 1px solid #ddd;
+    border: 2px solid rgb(128, 105, 12);
     text-decoration: none;
     padding: 8px 15px;
-    font-size: 13px;
-    margin-right: 10px;
+    font-size: 20px;
+    margin-right: 20px;
     font-weight: bold;
-    border-radius: 20px;
-    transition: all 150ms ease-in-out;
+    border-radius: 15px;
+    transition: all 200ms ease-in-out;
   }
   
   .Phonetic a:hover {
-    background: #9670f4;
-    color: white;
+    background: rgb(128, 105, 12);
+    color: rgb(255, 255, 255);
   }
   
   .Phonetic .text {

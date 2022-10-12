@@ -1,4 +1,3 @@
-import logo from "./logo.png";
 import "./App.css";
 import Dictionary from "./Dictionary";
 
@@ -7,11 +6,10 @@ export default function App() {
     <div className="App">
       <div className="container">
       <header className="App-header">
-       <img src={logo} className="App-logo 
-       img-fluid" alt="logo" /> 
+      <h1 style={{fontWeight: 'bold'}}> 📚 Your Favourite Dictionary App 📚 </h1>
       </header>
       <main>
-        <Dictionary defaultKeyword="nature" />
+        <Dictionary defaultKeyword="candy" />
       </main>
       <footer className="App-footer">
       This project was coded by{" "}
