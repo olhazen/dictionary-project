@@ -64,6 +64,7 @@ function handleSubmit(event) {
           </div>
         </section>
         <Results results={results} />
+        <Photos photos={photos} />
         </div>
         );
 } else {
