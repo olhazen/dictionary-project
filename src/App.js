@@ -11,7 +11,7 @@ export default function App() {
        img-fluid" alt="logo" /> 
       </header>
       <main>
-        <Dictionary defaultKeyword="sunset" />
+        <Dictionary defaultKeyword="nature" />
       </main>
       <footer className="App-footer">
       This project was coded by{" "}
