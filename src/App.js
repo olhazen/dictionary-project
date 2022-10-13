@@ -6,7 +6,7 @@ export default function App() {
     <div className="App">
       <div className="container">
       <header className="App-header">
-      <h1 style={{fontWeight: 'bold'}}> 📚 Your Favourite Dictionary App 📚 </h1>
+      <h1 style={{fontWeight: 'bold'}}> Your Favourite Dictionary App 📚 </h1>
       </header>
       <main>
         <Dictionary defaultKeyword="candy" />
