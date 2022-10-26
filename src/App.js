@@ -13,7 +13,7 @@ export default function App() {
       </main>
       <footer className="App-footer">
       This project was coded by{" "}
-      <a href="https://olhasi.wixsite.com/my-site" 
+      <a href="https://olhazen-front-end-developer.netlify.app/#" 
       target="_blank" rel="noopener noreferrer">
        Olha Zen  
        </a> {" "} 
